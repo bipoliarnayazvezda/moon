@@ -37,9 +37,14 @@ book:
 format:
   pdf:
     output-file: "scifi.pdf"
+    pdf-engine: lualatex
     # toc-depth: 1
-    mainfont: Arial
-    # documentclass: scrreprt
+    toc-title: "Оглавление"
+    mainfont: Times New Roman
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+    documentclass: scrreprt
     papersize: a5paper
   docx:
     output-file: "scifi.docx"
