@@ -1,0 +1,7 @@
+book_filename: "scifi"
+delete_merged_file: true
+output_dir: "docs"
+language:
+  ui:
+    toc-title: "Оглавление"
+    chapter_name: "Глава "

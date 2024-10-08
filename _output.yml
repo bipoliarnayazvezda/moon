@@ -1,0 +1,19 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      toc_depth: 1
+      before: |
+        <li><a href="./">SciFi</a></li>
+      after: |
+        <li><em><a href="https://bipoliarnayazvezda.github.io/" target="blank">Александра Булгакова</a></em></li>
+    download:
+      - ["scifi.epub", "EPUB"]
+      - ["scifi.docx", "DOCX"]
+      - ["scifi.pdf", "PDF"]
+    search:
+      engine: lunr
+    edit : null
+    info: false
+    sharing: null
+bookdown::epub_book: default

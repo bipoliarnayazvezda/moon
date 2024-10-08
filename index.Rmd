@@ -1,0 +1,13 @@
+---
+title: "SciFi"
+author: "Александра Булгакова"
+# date: '2016'
+site: bookdown::bookdown_site
+documentclass: book
+url: https://bipoliarnayazvezda.github.io/scifi/
+github-repo: bipoliarnayazvezda/scifi
+description: ""
+link-citations: true
+---
+
+# {-}
