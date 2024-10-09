@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 book:
-  title: "SciFi"
+  title: "Целься в Луну"
   author: "Александра Булгакова"
   # date: "2016"
   chapters:
@@ -36,7 +36,7 @@ book:
 
 format:
   pdf:
-    output-file: "scifi.pdf"
+    output-file: "moon.pdf"
     pdf-engine: lualatex
     # toc-depth: 1
     toc-title: "Оглавление"
@@ -47,10 +47,10 @@ format:
     documentclass: scrreprt
     papersize: a5paper
   docx:
-    output-file: "scifi.docx"
+    output-file: "moon.docx"
     toc-title: "Оглавление"
   epub:
-    output-file: "scifi.epub"
+    output-file: "moon.epub"
 
 
 

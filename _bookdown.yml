@@ -1,4 +1,4 @@
-book_filename: "scifi"
+book_filename: "moon"
 delete_merged_file: true
 output_dir: "docs"
 language:

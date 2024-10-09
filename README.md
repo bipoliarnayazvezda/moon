@@ -23,7 +23,7 @@ bookdown::render_epub()
 Ro render files
 
 ```
-cd scifi-quatro
+cd moon-quatro
 quarto render           # render all formats
 quarto render --to pdf  # render PDF format only
 ```
